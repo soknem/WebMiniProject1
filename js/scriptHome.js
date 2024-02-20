@@ -1,68 +1,77 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const menuButton = document.querySelector(
-      '[data-collapse-toggle="navbar-sticky"]'
-    );
-    const dropdownMenu = document.getElementById("dropdown-menu");
-  
-    menuButton.addEventListener("click", function () {
-      if (dropdownMenu.classList.contains("hidden")) {
-        dropdownMenu.classList.remove("hidden");
-      } else {
-        dropdownMenu.classList.add("hidden");
-      }
-    });
-  });
+  const menuButton = document.querySelector(
+    '[data-collapse-toggle="navbar-sticky"]'
+  );
+  const dropdownMenu = document.getElementById("dropdown-menu");
 
-  let carts = [
-    {
-      img: "../img/shool logo3.png",
-      profile: "../img/shool logo3.png",
-      pname: "POV Sokname",
-      subject: "Java",
-      dest: "Java programming",
-      hour:"130h 30mins",
-      lect:"30 lectures",
-      price:"130$"
-    },
-    {
-      img: "../img/shool logo3.png",
-      profile: "../img/shool logo3.png",
-      pname: "POV Sokname",
-      subject: "Java",
-      dest: "Java programming",
-      hour:"130h",
-      lect:"30 lectures",
-      price:"130$"
-    },
-    {
-      img: "../img/shool logo3.png",
-      profile: "../img/shool logo3.png",
-      pname: "POV Sokname",
-      subject: "Java",
-      dest: "Java programming",
-      hour:"130h",
-      lect:"30 lectures",
-      price:"130$"
-    },
-    {
-      img: "../img/shool logo3.png",
-      profile: "../img/shool logo3.png",
-      pname: "POV Sokname",
-      subject: "Java",
-      dest: "Java programming",
-      hour:"130h",
-      lect:"30 lectures",
-      price:"130$"
-    },
-  
-  ];
-  
-  let item = document.querySelector("#item-home1");
-  carts.map((cart) => {
-    item.innerHTML += `
-                  <div class="card w-full max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
-                  <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[14rem]">
-                      <img class="rounded-t-lg object-cover" src="${cart.img}" alt="" />
+  menuButton.addEventListener("click", function () {
+    if (dropdownMenu.classList.contains("hidden")) {
+      dropdownMenu.classList.remove("hidden");
+    } else {
+      dropdownMenu.classList.add("hidden");
+    }
+  });
+});
+
+let carts = [
+  {
+    img: "../img/java.webp",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "Java programming",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "210$",
+  },
+  {
+    img: "../img/c++.jpg",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "C++",
+    dest: "C++ programming",
+    hour: "130h",
+    lect: "30 lectures",
+    price: "180$",
+  },
+  {
+    img: "../img/HTML-tutorial.jpg",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Web",
+    dest: "HTML",
+    hour: "130h",
+    lect: "30 lectures",
+    price: "150$",
+  },
+  {
+    img: "../img/UI UX.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "UX/UI",
+    dest: "UX/UI Design",
+    hour: "130h",
+    lect: "30 lectures",
+    price: "180$",
+  },
+  {
+    img: "../img/PostgreSQL.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Databse",
+    dest: "PostgreSQL",
+    hour: "130h",
+    lect: "30 lectures",
+    price: "180$",
+  },
+];
+
+let item = document.querySelector("#item-home1");
+carts.map((cart) => {
+  item.innerHTML += `
+              <div class="card w-full h-auto max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
+                  <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[40%] mb-1">
+                      <img class="rounded-t-lg object-cover h-full w-full" src="${cart.img}" alt="" />
                   </div>
                   <div class="profile flex justify-between items-center bg-green-100 text-gray-700 h-[3rem]">
                       <div class="flex items-center"> <!-- Container for profile photo and name -->
@@ -79,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
                           </a>
                       </div>
                   </div>
-                  <div class="h-auto pb-4 pt-2">
+                  <div class="h-[20%] pb-4 pt-2">
                       <h5 class="mb-2 text-[1.5rem] font-semibold tracking-tight text-gray-700">${cart.dest}</h5>
                   </div>
                   <div class="hour flex justify-between items-center text-gray-700 p-2">
@@ -97,5 +106,4 @@ document.addEventListener("DOMContentLoaded", function () {
                   </div>
               </div>
   `;
-  });
-  
+});
