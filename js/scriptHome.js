@@ -69,7 +69,7 @@ let carts = [
 let item = document.querySelector("#item-home1");
 carts.map((cart) => {
   item.innerHTML += `
-              <div class="card w-full h-auto max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
+              <div class="card w-full h-auto max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 m-1 transition duration-150 ease-out transform hover:scale-105">
                   <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[40%] mb-1">
                       <img class="rounded-t-lg object-cover h-full w-full" src="${cart.img}" alt="" />
                   </div>
@@ -88,16 +88,16 @@ carts.map((cart) => {
                           </a>
                       </div>
                   </div>
-                  <div class="h-[20%] pb-4 pt-2">
+                  <div class="h-[20%] pt-2">
                       <h5 class="mb-2 text-[1.5rem] font-semibold tracking-tight text-gray-700">${cart.dest}</h5>
                   </div>
                   <div class="hour flex justify-between items-center text-gray-700 p-2">
                       <div>${cart.hour}</div>
                       <div>${cart.lect}</div>
                   </div>
-                  <div class="p-2 flex justify-between items-center bg-green-100 rounded-[5px]">
+                  <div class="p-1 flex justify-between items-center bg-green-100 rounded-[5px]">
                       <h1 class="font-bold text-[#309255] text-[1.2rem] ">${cart.price}</h1>
-                      <a href="html/Detail.html" class="inline-flex w-1/3 items-center px-3 py-2 text-sm font-medium text-center bg-white border border-[#309255] text-[#309255] rounded-lg hover:bg-[#309255] hover:text-white transition duration-200 ease-out mr-1">
+                      <a href="html/Detail.html" class="inline-flex w-1/3 items-center px-3 py-3 text-sm font-medium text-center bg-white border border-[#309255] text-[#309255] rounded-lg hover:bg-[#309255] hover:text-white transition duration-200 ease-out mr-1">
                           Detail
                           <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
