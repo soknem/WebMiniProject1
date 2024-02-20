@@ -18,8 +18,4 @@ body{
             width: calc(100% - 1rem); 
         }
     }
-
-    & main{
-
-}
 }

@@ -637,6 +637,26 @@ video {
   margin-top: 3.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -675,6 +695,14 @@ video {
 
 .h-auto {
   height: auto;
+}
+
+.h-\[2\.5rem\] {
+  height: 2.5rem;
+}
+
+.h-\[2\.7rem\] {
+  height: 2.7rem;
 }
 
 .w-1\/2 {
@@ -751,6 +779,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -876,6 +908,14 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .text-2xl {
@@ -1049,6 +1089,10 @@ video {
     display: none;
   }
 
+  .md\:h-\[3\.5rem\] {
+    height: 3.5rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -1100,6 +1144,26 @@ video {
 
   .md\:text-\[3rem\] {
     font-size: 3rem;
+  }
+
+  .md\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+
+  .md\:text-\[2\.2rem\] {
+    font-size: 2.2rem;
+  }
+
+  .md\:font-semibold {
+    font-weight: 600;
+  }
+
+  .md\:text-\[\] {
+    color: ;
+  }
+
+  .md\:text-\[2\.rem\] {
+    color: 2.rem;
   }
 
   .md\:hover\:bg-transparent:hover {
