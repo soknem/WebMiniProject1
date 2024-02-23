@@ -55,11 +55,11 @@ let carts = [
     price: "130$",
   },
   {
-    img: "../img/shool logo3.png",
+    img: "../img/c sharpe.svg",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "C# programming",
     hour: "130h 30mins",
     lect: "30 lectures",
     price: "130$",
