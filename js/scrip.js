@@ -15,124 +15,123 @@ document.addEventListener("DOMContentLoaded", function () {
 
 let carts = [
   {
-    img: "../img/shool logo3.png",
-    profile: "../img/shool logo3.png",
+    img: "../img/java.webp",
+    profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
     dest: "Java programming",
-    hour:"130h 30mins",
-    lect:"30 lectures",
-    price:"130$"
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
+  {
+    img: "../img/HTML-tutorial.jpg",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "HTML",
+    hour: "130h",
+    lect: "30 lectures",
+    price: "130$",
+  },
+  {
+    img: "../img/c++.ong",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "c++ programming",
+    hour: "130h",
+    lect: "30 lectures",
+    price: "130$",
   },
   {
     img: "../img/shool logo3.png",
-    profile: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
     dest: "Java programming",
-    hour:"130h",
-    lect:"30 lectures",
-    price:"130$"
+    hour: "130h",
+    lect: "30 lectures",
+    price: "130$",
   },
   {
     img: "../img/shool logo3.png",
-    profile: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
     dest: "Java programming",
-    hour:"130h",
-    lect:"30 lectures",
-    price:"130$"
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
   },
-  {
-    img: "../img/shool logo3.png",
-    profile: "../img/shool logo3.png",
-    pname: "POV Sokname",
-    subject: "Java",
-    dest: "Java programming",
-    hour:"130h",
-    lect:"30 lectures",
-    price:"130$"
-  },
-  {
-    img: "../img/shool logo3.png",
-    profile: "../img/shool logo3.png",
-    pname: "POV Sokname",
-    subject: "Java",
-    dest: "Java programming",
-    hour:"130h 30mins",
-    lect:"30 lectures",
-    price:"130$"
-  },
-
 ];
 let carts2 = [
-    {
-        img: "../img/shool logo3.png",
-        profile: "../img/shool logo3.png",
-        pname: "POV Sokname",
-        subject: "Java",
-        dest: "Java programming",
-        hour:"130h 30mins",
-        lect:"30 lectures",
-        price:"130$"
-      },
+  {
+    img: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "Java programming",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
 ];
 
 let carts3 = [
-    {
-        img: "../img/shool logo3.png",
-        profile: "../img/shool logo3.png",
-        pname: "POV Sokname",
-        subject: "Java",
-        dest: "Java programming",
-        hour:"130h 30mins",
-        lect:"30 lectures",
-        price:"130$"
-      },
-      {
-        img: "../img/shool logo3.png",
-        profile: "../img/shool logo3.png",
-        pname: "POV Sokname",
-        subject: "Java",
-        dest: "Java programming",
-        hour:"130h 30mins",
-        lect:"30 lectures",
-        price:"130$"
-      },
-      {
-        img: "../img/shool logo3.png",
-        profile: "../img/shool logo3.png",
-        pname: "POV Sokname",
-        subject: "Java",
-        dest: "Java programming",
-        hour:"130h 30mins",
-        lect:"30 lectures",
-        price:"130$"
-      },
+  {
+    img: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "Java programming",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
+  {
+    img: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "Java programming",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
+  {
+    img: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "Java programming",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
 ];
 
 let carts4 = [
-    {
-        img: "../img/shool logo3.png",
-        profile: "../img/shool logo3.png",
-        pname: "POV Sokname",
-        subject: "Java",
-        dest: "Java programming",
-        hour:"130h 30mins",
-        lect:"30 lectures",
-        price:"130$"
-      },
-      {
-        img: "../img/shool logo3.png",
-        profile: "../img/shool logo3.png",
-        pname: "POV Sokname",
-        subject: "Java",
-        dest: "Java programming",
-        hour:"130h 30mins",
-        lect:"30 lectures",
-        price:"130$"
-      },
+  {
+    img: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "Java programming",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
+  {
+    img: "../img/shool logo3.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "Java programming",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
 ];
 
 let item = document.querySelector("#item-all2");
@@ -140,7 +139,7 @@ carts2.map((cart) => {
   item.innerHTML += `
                 <div class="card w-full max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
                 <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[14rem]">
-                    <img class="rounded-t-lg object-cover" src="${cart.img}" alt="" />
+                    <img class="rounded-t-lg object-cover " src="${cart.img}" alt="" />
                 </div>
                 <div class="profile flex justify-between items-center bg-green-100 text-gray-700 h-[3rem]">
                     <div class="flex items-center"> <!-- Container for profile photo and name -->
@@ -182,7 +181,7 @@ carts.map((cart) => {
   item1.innerHTML += `
                 <div class="card w-full max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
                 <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[14rem]">
-                    <img class="rounded-t-lg object-cover" src="${cart.img}" alt="" />
+                    <img class="rounded-t-lg object-cover h-[100%] h-[100%]" src="${cart.img}" alt="" />
                 </div>
                 <div class="profile flex justify-between items-center bg-green-100 text-gray-700 h-[3rem]">
                     <div class="flex items-center"> <!-- Container for profile photo and name -->
