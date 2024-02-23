@@ -35,21 +35,21 @@ let carts = [
     price: "130$",
   },
   {
-    img: "../img/c++.ong",
+    img: "../img/c++.jpg",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
-    subject: "Java",
+    subject: "Ja",
     dest: "c++ programming",
     hour: "130h",
     lect: "30 lectures",
     price: "130$",
   },
   {
-    img: "../img/shool logo3.png",
+    img: "../img/UI UX.png",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "UX UI",
     hour: "130h",
     lect: "30 lectures",
     price: "130$",
@@ -67,11 +67,31 @@ let carts = [
 ];
 let carts2 = [
   {
-    img: "../img/shool logo3.png",
+    img: "../img/HTML-tutorial.jpg",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "HTML",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
+  {
+    img: "../img/UI UX.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "UI UX Desgin",
+    hour: "130h 30mins",
+    lect: "30 lectures",
+    price: "130$",
+  },
+  {
+    img: "../img/javascript.png",
+    profile: "../img/profile.webp",
+    pname: "POV Sokname",
+    subject: "Java",
+    dest: "javascript programming",
     hour: "130h 30mins",
     lect: "30 lectures",
     price: "130$",
@@ -80,31 +100,31 @@ let carts2 = [
 
 let carts3 = [
   {
-    img: "../img/shool logo3.png",
+    img: "../img/kotlin.webp",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "Kotlin",
     hour: "130h 30mins",
     lect: "30 lectures",
     price: "130$",
   },
   {
-    img: "../img/shool logo3.png",
+    img: "../img/flutter.png",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "flutter",
     hour: "130h 30mins",
     lect: "30 lectures",
     price: "130$",
   },
   {
-    img: "../img/shool logo3.png",
+    img: "../img/ract native.png",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "react native",
     hour: "130h 30mins",
     lect: "30 lectures",
     price: "130$",
@@ -113,21 +133,21 @@ let carts3 = [
 
 let carts4 = [
   {
-    img: "../img/shool logo3.png",
+    img: "../img/My sql.webp",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "My sql",
     hour: "130h 30mins",
     lect: "30 lectures",
     price: "130$",
   },
   {
-    img: "../img/shool logo3.png",
+    img: "../img/PostgreSQL.png",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
-    dest: "Java programming",
+    dest: "PostgreSQL",
     hour: "130h 30mins",
     lect: "30 lectures",
     price: "130$",
@@ -138,8 +158,8 @@ let item = document.querySelector("#item-all2");
 carts2.map((cart) => {
   item.innerHTML += `
                 <div class="card w-full max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
-                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[14rem]">
-                    <img class="rounded-t-lg object-cover " src="${cart.img}" alt="" />
+                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[12rem]">
+                    <img class="rounded-t-lg object-cover h-[100%] h-[100%]" src="${cart.img}" alt="" />
                 </div>
                 <div class="profile flex justify-between items-center bg-green-100 text-gray-700 h-[3rem]">
                     <div class="flex items-center"> <!-- Container for profile photo and name -->
@@ -180,7 +200,7 @@ let item1 = document.querySelector("#item-all1");
 carts.map((cart) => {
   item1.innerHTML += `
                 <div class="card w-full max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
-                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[14rem]">
+                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[12rem]">
                     <img class="rounded-t-lg object-cover h-[100%] h-[100%]" src="${cart.img}" alt="" />
                 </div>
                 <div class="profile flex justify-between items-center bg-green-100 text-gray-700 h-[3rem]">
@@ -222,8 +242,8 @@ let item3 = document.querySelector("#item-all3");
 carts3.map((cart) => {
   item3.innerHTML += `
                 <div class="card w-full max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
-                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[14rem]">
-                    <img class="rounded-t-lg object-cover" src="${cart.img}" alt="" />
+                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[12rem]">
+                    <img class="rounded-t-lg object-cover h-[100%] h-[100%]" src="${cart.img}" alt="" />
                 </div>
                 <div class="profile flex justify-between items-center bg-green-100 text-gray-700 h-[3rem]">
                     <div class="flex items-center"> <!-- Container for profile photo and name -->
@@ -264,8 +284,8 @@ let item4 = document.querySelector("#item-all4");
 carts4.map((cart) => {
   item4.innerHTML += `
                 <div class="card w-full max-w-sm bg-white border border-green-500 rounded-lg shadow p-1 sm:m-1 md:m-2 transition duration-150 ease-out transform hover:scale-105">
-                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[14rem]">
-                    <img class="rounded-t-lg object-cover" src="${cart.img}" alt="" />
+                <div class="img flex justify-center items-center overflow-hidden rounded-[5px] h-[12rem]">
+                    <img class="rounded-t-lg object-cover h-[100%] h-[100%]" src="${cart.img}" alt="" />
                 </div>
                 <div class="profile flex justify-between items-center bg-green-100 text-gray-700 h-[3rem]">
                     <div class="flex items-center"> <!-- Container for profile photo and name -->
