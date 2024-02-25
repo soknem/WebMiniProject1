@@ -26,7 +26,7 @@ let carts = [
   },
   {
     img: "img/c++.jpg",
-    profile: "./img/profile.webp",
+    profile: "img/profile.webp",
     pname: "POV Sokname",
     subject: "C++",
     dest: "C++ programming",
@@ -35,8 +35,8 @@ let carts = [
     price: "180$",
   },
   {
-    img: "../img/HTML-tutorial.jpg",
-    profile: "../img/profile.webp",
+    img: "img/HTML-tutorial.jpg",
+    profile: "img/profile.webp",
     pname: "POV Sokname",
     subject: "Web",
     dest: "HTML",
