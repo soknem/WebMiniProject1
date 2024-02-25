@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 let carts = [
   {
     img: "img/java.webp",
-    profile: "../img/profile.webp",
+    profile: "img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
     dest: "Java programming",
@@ -26,7 +26,7 @@ let carts = [
   },
   {
     img: "img/c++.jpg",
-    profile: "../img/profile.webp",
+    profile: "img/profile.webp",
     pname: "POV Sokname",
     subject: "C++",
     dest: "C++ programming",
@@ -36,7 +36,7 @@ let carts = [
   },
   {
     img: "img/HTML-tutorial.jpg",
-    profile: "../img/profile.webp",
+    profile: "img/profile.webp",
     pname: "POV Sokname",
     subject: "Web",
     dest: "HTML",
@@ -45,8 +45,8 @@ let carts = [
     price: "150$",
   },
   {
-    img: "../img/UI UX.png",
-    profile: "../img/profile.webp",
+    img: "img/UI UX.png",
+    profile: "img/profile.webp",
     pname: "POV Sokname",
     subject: "UX/UI",
     dest: "UX/UI Design",
@@ -56,7 +56,7 @@ let carts = [
   },
   {
     img: "img/PostgreSQL.png",
-    profile: "../img/profile.webp",
+    profile: "img/profile.webp",
     pname: "POV Sokname",
     subject: "Databse",
     dest: "PostgreSQL",
