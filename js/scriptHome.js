@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 let carts = [
   {
-    img: "../img/java.webp",
+    img: "img/java.webp",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
@@ -25,7 +25,7 @@ let carts = [
     price: "210$",
   },
   {
-    img: "../img/c++.jpg",
+    img: "img/c++.jpg",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "C++",
@@ -35,7 +35,7 @@ let carts = [
     price: "180$",
   },
   {
-    img: "../img/HTML-tutorial.jpg",
+    img: "img/HTML-tutorial.jpg",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Web",
@@ -45,7 +45,7 @@ let carts = [
     price: "150$",
   },
   {
-    img: "../img/UI UX.png",
+    img: "img/UI UX.png",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "UX/UI",
@@ -55,7 +55,7 @@ let carts = [
     price: "180$",
   },
   {
-    img: "../img/PostgreSQL.png",
+    img: "img/PostgreSQL.png",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Databse",
