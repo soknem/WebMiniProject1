@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 let carts = [
   {
     img: "img/java.webp",
-    profile: "img/profile.webp",
+    profile: "/img/profile.webp",
     pname: "POV Sokname",
     subject: "Java",
     dest: "Java programming",
@@ -26,7 +26,7 @@ let carts = [
   },
   {
     img: "img/c++.jpg",
-    profile: "img/profile.webp",
+    profile: "./img/profile.webp",
     pname: "POV Sokname",
     subject: "C++",
     dest: "C++ programming",
@@ -36,7 +36,7 @@ let carts = [
   },
   {
     img: "img/HTML-tutorial.jpg",
-    profile: "img/profile.webp",
+    profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "Web",
     dest: "HTML",
