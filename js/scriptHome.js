@@ -45,7 +45,7 @@ let carts = [
     price: "150$",
   },
   {
-    img: "img/UI UX.png",
+    img: "../img/UI UX.png",
     profile: "../img/profile.webp",
     pname: "POV Sokname",
     subject: "UX/UI",
